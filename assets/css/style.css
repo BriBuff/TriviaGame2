@@ -1,0 +1,13 @@
+body {
+    background: black;
+    color: goldenrod;
+    text-align: center;
+}
+
+.GOTLogo {
+    align: center;
+    height: 200px;
+    width: 75%;
+    border: 7px solid goldenrod;
+}
+

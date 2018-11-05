@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="eng-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Thrones Trivia!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<img src="assets/images/Game-of-Thrones-Logo.jpg" alt="GOTLogo" class="GOTLogo">
+<div id="startDiv">
+        <h1>Game of Thrones Trivia!</h1>
+<br>
+    <button id="start">Start</button>
+</div>
+
+<div id="game">
+
+    <div id="timer"></div>
+ <br>
+    <div id="question1">Who is king of Westeros when the the series begins?</div>
+<br>
+    <div id="possibleAs1"> <input type="radio" name="que1" value="correct">Robert Baratheon</div>
+    <div id="possibleAs1"> <input type="radio" name="que1" value="wrong">Cersei Lannister (Baratheon)</div>
+    <div id="possibleAs1"> <input type="radio" name="que1" value="wrong">Jaime Lannister</div>
+    <div id="possibleAs1"> <input type="radio" name="que1" value="wrong"> Eddard Stark</div>
+<br>
+    <div id="question2">What is the name of the continent on which most of the action of Game of Thrones takes place?</div>
+    <br>
+    <div id="possibleAs2"> <input type="radio" name="que2" value="correct">Westeros</div>
+    <div id="possibleAs2"> <input type="radio" name="que2" value="wrong">Essos</div>
+    <div id="possibleAs2"> <input type="radio" name="que2" value="wrong">Free Cities</div>
+    <div id="possibleAs2"> <input type="radio" name="que2" value="wrong"> Dothraki Sea</div>
+
+<br>
+    <div id="question3">At the end of season 2, Joffrey Baratheon sits on the Iron Throne, but which Baratheon is actually the rightful king?</div>
+    <br>
+    <div id="possibleAs3"> <input type="radio" name="que3" value="correct">Stannis Baratheon</div>
+    <div id="possibleAs3"> <input type="radio" name="que3" value="wrong">Gendry</div>
+    <div id="possibleAs3"> <input type="radio" name="que3" value="wrong">Renly Baratheon</div>
+    <div id="possibleAs3"> <input type="radio" name="que3" value="wrong"> Robert Baratheon</div>
+
+<br>
+    <div id="question4">What is the name of Arya Stark's sword?</div>
+    <br>
+    <div id="possibleAs4"> <input type="radio" name="que4" value="correct">Needle</div>
+    <div id="possibleAs4"> <input type="radio" name="que4" value="wrong">Pointy End</div>
+    <div id="possibleAs4"> <input type="radio" name="que4" value="wrong">Jon's Gift</div>
+    <div id="possibleAs4"> <input type="radio" name="que4" value="wrong">No One</div>
+
+<br>
+
+    <button id="submit">Submit</button>
+</div>
+
+<div id="done">
+    <div id="totalQuestions"></div>
+    <div id="answeredRight"></div>
+    <div id="answeredWrong"></div>
+    <button id="restart">Restart</button>
+</div>
+
+
+<iframe src="https://open.spotify.com/embed/track/2q6fxAvSpqXR4jx9Ne7RGz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
