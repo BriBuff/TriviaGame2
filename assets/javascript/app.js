@@ -47,7 +47,9 @@ function timer () {
      }
     }
     }
-
+    // *Kept from first version. Something here, when deleted will stop the whole game from working.
+    // Was unable to find what would stop it, so this is left in from version 1.
+    
     // qA is the array of objects
     for (var i = 0; i < qA.length; i++) {
 
@@ -116,3 +118,8 @@ function timer () {
       }
       endGame();
   }
+
+  // Errors in ver 2:
+  // "Wrong" won't show up (was unable to get it to work in either versions.)
+// Submit works, but will not stop the timer.
+// Restart will restart the timer, but will not clear the fields.
